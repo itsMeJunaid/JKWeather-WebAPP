@@ -18,7 +18,7 @@ body {
   padding: 50px;
   background: var(--primary-color);
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("./images/bg2.gif");
+    url("https://raw.githubusercontent.com/itsMeJunaid/JKWeather-WebAPP/main/bg2.gif");
   background-size: cover;
   background-position: center;
   transition: background-image 0.3s ease;
