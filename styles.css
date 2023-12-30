@@ -1017,13 +1017,14 @@ button:active {
 }
 }
 
+
 @media (max-width: 720px) {
   .wrapper {
       /* padding: 0 500px;
       border-block-start-style: hidden;
       margin-left: -789px;   */
       width: 370px;
-      min-width: 705px;
+      min-width: 420px;
     }
   body{
      display: flex;
@@ -1043,7 +1044,8 @@ button:active {
 }
 
 .weather-icon {
-  margin-top: -23px;
+  margin-top: 65px;
+  margin-left: 12px;
 }
 
 .weather-icon #icon {
@@ -1063,8 +1065,6 @@ button:active {
   margin-left: 3px;
 }
 }
-
-
 
 
 
