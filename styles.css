@@ -927,3 +927,45 @@ button:active {
 }
 
 }
+
+
+
+@media (max-width: 493px) {
+  .wrapper {
+      /* padding: 0 500px;
+      border-block-start-style: hidden;
+      margin-left: -789px;   */
+      width: 370px;
+      min-width: 475px
+    }
+  body{
+     display: flex;
+     background: var(--primary-color);
+     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./images/bg2.gif");
+     background-size: cover;
+     background-position: center;
+     transition: background-image 0.3s ease;
+     position: relative;
+     min-width: auto;
+}
+.temperature #temp {
+  font-size: 32px;
+}
+.temperature span {
+  font-size: 22px;
+}
+
+.weather-icon {
+  margin-top: 75px;
+}
+
+.weather-icon #icon {
+  width: 48%;
+  margin-left: 100px;
+}
+
+.search input {
+  width: 70%;
+}
+
+}
