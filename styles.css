@@ -1024,7 +1024,7 @@ button:active {
       border-block-start-style: hidden;
       margin-left: -789px;   */
       width: 370px;
-      min-width: 420px;
+      min-width: 405px;
     }
   body{
      display: flex;
